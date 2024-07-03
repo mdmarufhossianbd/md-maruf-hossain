@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Navber from "@/components/Navber";
+import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner></Banner>
       <About></About>
       <Skills></Skills>
+      <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>
     </main>
