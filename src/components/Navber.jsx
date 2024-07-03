@@ -12,8 +12,8 @@ const Navber = () => {
             path: '#about'
         },
         {
-            titile: 'Portfolio',
-            path: '#portfolio'
+            titile: 'Projects',
+            path: '#projects'
         },
         {
             titile: 'Skills',
