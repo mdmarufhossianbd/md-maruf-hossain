@@ -10,23 +10,10 @@ export default function Home() {
     <main className="bg-[#0F103F] text-white">
       <Navber></Navber>
       <Banner></Banner>
-      <Skills></Skills>
       <About></About>
+      <Skills></Skills>
       <Contact></Contact>
       <Footer></Footer>
     </main>
   );
 }
-
-
-//  const Home = () => {
-//   return (
-//     <main className="bg-[#0F103F] text-white">
-//       {/* <Navber></Navber> */}
-//       <Banner></Banner>
-//       <About></About>
-//       <Contact></Contact>
-//     </main>
-//   );
-// };
-// export default Home;
