@@ -16,7 +16,7 @@ const Banner = () => {
                 </div>
             </div>
             <div className="">
-                <Image className="rounded-full object-cover w-[500px] h-[500px]" height={500} width={500} src={img} alt="md maruf hossain"/>
+                <Image className="rounded-full object-cover w-[500px] h-[500px] border border-red-400" height={500} width={500} src={img} alt="md maruf hossain"/>
             </div>
         </div>
     );
