@@ -8,22 +8,24 @@ import { RiLoginBoxFill } from "react-icons/ri";
 const Contact = () => {
     return (
         <div id='contact' className="py-20">
-            <div className="bg-[#2F2F8A99] max-w-7xl mx-auto rounded-2xl h-[600px] flex gap-20 p-20 border">
-                <div className="w-1/2">
-                    <h2 className="text-2xl font-semibold">Get in touch</h2>
-                    <p className="text-justify py-5">I’m very approachable and would love to speak to you. Feel free to call, send me an email . Follow me in social media or simply complete the enquiry form.</p>
-                    <div className="mt-20 space-y-10">
+            <div className="bg-[#2F2F8A99] max-w-7xl lg:mx-auto rounded-2xl flex flex-col md:flex-row gap-5 md:gap-10 lg:p-10 p-5 mx-2">
+                <div className="lg:w-1/2 w-full md:flex md:flex-col gap-8">
+                    <div>
+                        <h2 className="text-2xl font-semibold">Get in touch</h2>
+                        <p className="text-justify pt-5">I’m very approachable and would love to speak to you. Feel free to call, send me an email . Follow me in social media or simply complete the enquiry form.</p>
+                    </div>
+                    <div className="lg:mt-20 mt-10 lg:space-y-10 space-y-5">
                         <div className="flex items-center gap-2">
-                            <PiPhoneCallFill className="md:text-6xl bg-white p-2 text-black rounded-full" />
+                            <PiPhoneCallFill className="md:text-6xl text-4xl  bg-white p-2 text-black rounded-full" />
                             <Link href={'tel:+8801723010904'}><p className="text-xl">+8801723-010904</p></Link>
                         </div>
                         <div className="flex items-center gap-2">
-                            <MdMarkEmailRead className="md:text-6xl bg-white p-2 text-black rounded-full" />
+                            <MdMarkEmailRead className="md:text-6xl text-4xl bg-white p-2 text-black rounded-full" />
                             <Link href={'mailto:mdmarufh974@gmail.com'}><p className="text-xl">mdmarufh974@gmail.com</p></Link>
                         </div>
                     </div>
                 </div>
-                <div className="w-1/2">
+                <div className="lg:w-1/2 w-full">
                     <h2 className="text-2xl font-semibold">Sent me a message</h2>
                     <form className="py-4">
                         <div className="relative mb-4">
