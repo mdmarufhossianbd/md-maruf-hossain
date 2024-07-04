@@ -30,12 +30,11 @@ const Projects = () => {
     ]
     return (
         <div id="projects" className="max-w-7xl mx-auto">
-            <h2 className="text-center text-5xl font-semibold md:mt-20 mt-8">My Projects</h2>
-            <hr className="md:mb-20 mb-8 w-[300px] mx-auto" />
-            <div className="grid grid-cols-3 gap-10">
+            <h2 className="text-center text-5xl font-semibold md:my-20 my-8">My Projects</h2>
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 md:mx-4 mx-2">
                 {
                     myProjects.map((project, index)=> <div className="bg-[#2f2f57] p-5 rounded-lg" key={index}>
-                        <Image className="w-full h-[300px] object-cover hover:snap-y" src={project.thumImage} alt={project.name} width={350} height={280}/>
+                        <Image className="w-full h-[300px] object-cover hover:snap-y rounded-t" src={project.thumImage} alt={project.name} width={350} height={280}/>
                         <h2 className="text-xl font-semibold py-2 capitalize">{project.name}</h2>
                         <p className="text-justify pb-2">{project.description.slice(0, 127)}...</p>
                         <div className="flex justify-between">

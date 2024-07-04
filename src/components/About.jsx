@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 import owner from '../../public/01516167351.jpg';
 const About = () => {
     return (
-        <div id="about" className='max-w-7xl lg:mx-auto md:mx-5 xl:p-0 p-5 lg:flex items-center'>
+        <div id="about" className='max-w-7xl lg:mx-auto md:mx-5 xl:p-0 p-5 lg:flex items-center md:my-20 my-10'>
             <div className='lg:w-[400px] flex flex-col items-center py-5 md:py-10 lg:py-0'>
                 <Image className='rounded-xl' height={380} width={300} src={owner} alt='md maruf hossain' />
                 <div className='w-[300px] text-center'>
@@ -20,7 +20,7 @@ const About = () => {
                 </div>
             </div>
             <div className='w-full lg:ml-20 text-justify text-[#ffffffcb]'>
-                <h2 className='text-5xl font-semibold pb-5 text-white'>About Me</h2>
+                <h2 className='text-5xl font-semibold pb-5 text-white text-center md:text-left'>About Me</h2>
                 <p className='mb-4'>Hello! I am Md Maruf Hossain, a passionate and dedicated frontend developer with a strong foundation in web development. My journey in the tech world began with my keen interest in creating visually appealing and user-friendly web applications. Over the years, I have honed my skills and expertise to deliver high-quality digital experiences. </p>
                 <p className='mb-4'>I graduated in 2018 from National University, where I acquired a solid academic foundation. My quest for excellence led me to finished the <span className='font-medium'>Complete Web Development</span> course under the mentorship of <a className='font-semibold text-[#C961DE]' href="https://www.facebook.com/jhankarmahbubshow/" target="_blank">Jhankar Mahbub</a>, provided by <a className='font-semibold text-[#C961DE]' href="https://www.programming-hero.com" target="_blank" rel="noopener noreferrer">Programming Hero</a>. This course was instrumental in shaping my understanding of modern web development practices and equipped me with the skills to tackle real-world projects.
                  </p>
@@ -40,8 +40,7 @@ const About = () => {
                     </p>
                     <p>
                         Thank you for visiting my portfolio. I look forward to connecting with you!
-                    </p>
-               
+                    </p>               
             </div>
         </div>
     );

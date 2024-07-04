@@ -6,7 +6,7 @@ import TypewriterForBanner from "./TypewriterForBanner";
 const Banner = () => {
     
     return (
-        <div className="md:flex items-center justify-between max-w-7xl mx-auto ">
+        <div className="md:flex items-center justify-between max-w-7xl mx-auto my-20">
             <div className="flex flex-col justify-center w-1/2">
                 <p className="text-2xl md:text-5xl mb-2">Hi, I'm Md Maruf Hossain, <span className="font-semibold text-[#C961DE]">Professional Frontend Developer</span>.</p>
                 <TypewriterForBanner />
