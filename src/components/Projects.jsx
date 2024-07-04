@@ -9,7 +9,8 @@ const Projects = () => {
             liveUrl : "https://luminous-dusk-9dec82.netlify.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/genius-quest-hub.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/genius-quest-hub-backend.git",
-            thumImage : "https://i.ibb.co/0CqTwQG/Home-Genius-Quest-Hub.png"
+            thumImage : "https://i.ibb.co/0CqTwQG/Home-Genius-Quest-Hub.png",
+            technologyUsed : "HTMl, React, CSS, TailwindCSS, JavaScript, Node.Js and MongoDB"
         },
         {
             name : "Genius Workplace",
@@ -17,7 +18,8 @@ const Projects = () => {
             liveUrl : "https://genius-workplace.web.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/genius-workplace-fronted.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/genius-workplace-backend.git",
-            thumImage : "https://i.ibb.co/Q6nsJ4c/Home-Genius-Work-Place.png"
+            thumImage : "https://i.ibb.co/Q6nsJ4c/Home-Genius-Work-Place.png",
+            technologyUsed : "HTMl, React, CSS, TailwindCSS, JavaScript, Node.Js and MongoDB"
         },
         {
             name : "Artistic Strokes Studio",
@@ -25,7 +27,8 @@ const Projects = () => {
             liveUrl : "https://artistic-strokes-studio.web.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/artistic-strokes-studio.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/artistic-strokes-studio-backend.git",
-            thumImage : "https://i.ibb.co/XsxFK9d/Artistic-Strokes-Studio.png"
+            thumImage : "https://i.ibb.co/XsxFK9d/Artistic-Strokes-Studio.png",
+            technologyUsed : "HTMl, React, CSS, TailwindCSS, JavaScript, Node.Js and MongoDB"
         }
     ]
     return (
@@ -33,10 +36,11 @@ const Projects = () => {
             <h2 className="text-center text-5xl font-semibold md:my-20 my-8">My Projects</h2>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-10 md:mx-4 mx-2">
                 {
-                    myProjects.map((project, index)=> <div className="bg-[#2f2f57] p-5 rounded-lg" key={index}>
+                    myProjects.map((project, index)=> <div className="bg-[#22226c] p-5 rounded-lg" key={index}>
                         <Image className="w-full h-[300px] object-cover hover:snap-y rounded-t" src={project.thumImage} alt={project.name} width={350} height={280}/>
                         <h2 className="text-xl font-semibold py-2 capitalize">{project.name}</h2>
-                        <p className="text-justify pb-2">{project.description.slice(0, 127)}...</p>
+                        <p className="text-justify pb-2">{project.description.slice(0, 100)}...</p>
+                        <p className="mb-4 text-justify"><span className="font-semibold">Used Technologies : </span>{project.technologyUsed}</p>
                         <div className="flex justify-between">
                             <Link className="bg-[#fff] text-[#2f2f57] font-semibold px-5 py-2 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:from-[#2954A3] hover:to-[#C961DE] duration-300" href={project.liveUrl} target="_blank">Live</Link>
                             <Link className="bg-gradient-to-r from-[#C961DE] to-[#2954A3] md:px-5 px-3 py-2 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:from-[#2954A3] hover:to-[#C961DE] duration-300" href={project.frontendGitHub} target="_blank">Frontend</Link>
