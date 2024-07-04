@@ -9,7 +9,7 @@ const Projects = () => {
             liveUrl : "https://luminous-dusk-9dec82.netlify.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/genius-quest-hub.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/genius-quest-hub-backend.git",
-            thumImage : "https://i.ibb.co/WKZVYXC/Business-Idea-Blitz.jpg"
+            thumImage : "https://i.ibb.co/0CqTwQG/Home-Genius-Quest-Hub.png"
         },
         {
             name : "Genius Workplace",
@@ -17,7 +17,7 @@ const Projects = () => {
             liveUrl : "https://genius-workplace.web.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/genius-workplace-fronted.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/genius-workplace-backend.git",
-            thumImage : "https://i.ibb.co/WKZVYXC/Business-Idea-Blitz.jpg"
+            thumImage : "https://i.ibb.co/Q6nsJ4c/Home-Genius-Work-Place.png"
         },
         {
             name : "Artistic Strokes Studio",
@@ -25,7 +25,7 @@ const Projects = () => {
             liveUrl : "https://artistic-strokes-studio.web.app/",
             frontendGitHub : "https://github.com/mdmarufhossianbd/artistic-strokes-studio.git",
             backendGitHub : "https://github.com/mdmarufhossianbd/artistic-strokes-studio-backend.git",
-            thumImage : "https://i.ibb.co/WKZVYXC/Business-Idea-Blitz.jpg"
+            thumImage : "https://i.ibb.co/XsxFK9d/Artistic-Strokes-Studio.png"
         }
     ]
     return (
