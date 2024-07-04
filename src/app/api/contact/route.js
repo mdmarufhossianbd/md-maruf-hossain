@@ -13,15 +13,17 @@ export async function POST(request) {
         port: 587,
         secure: false,
       auth: {
-        user: process.env.EMAIL_USER, 
-        pass: process.env.EMAIL_PASS, 
+        user: 'maruf@trenddinglife.com', 
+        pass: 'BanglaDesh_321', 
+        // user: process.env.EMAIL_USER, 
+        // pass: process.env.EMAIL_PASS, 
       },
     });
 
     // Set up email data
     const mailOptions = {
       from: email,
-      to: process.env.EMAIL_TO,
+      to: 'maruf@trenddinglife.com',
       subject: `${subject} by ${name}`,
       text: message, // plain text body
     //   html: `<p>${message}</p>`, // html body
