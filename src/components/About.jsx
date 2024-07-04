@@ -36,7 +36,7 @@ const About = () => {
                     </ul>
                     <p className='mb-4'>In addition to my technical skills, I am an avid learner, continuously exploring new technologies and methodologies to enhance my capabilities. I believe in the power of collaboration and enjoy working in team environments to bring ideas to life.
                     </p>
-                    <p className='mb-4'>When I'm not coding, you can find me exploring new places, reading tech blogs, or experimenting with new recipes in the kitchen. I am excited to connect with like-minded professionals and contribute to innovative projects that make a difference.
+                    <p className='mb-4'>When I am not coding, you can find me exploring new places, reading tech blogs, or experimenting with new recipes in the kitchen. I am excited to connect with like-minded professionals and contribute to innovative projects that make a difference.
                     </p>
                     <p>
                         Thank you for visiting my portfolio. I look forward to connecting with you!

@@ -153,7 +153,7 @@ const Skills = () => {
                             <SiMongodb className="text-5xl text-green-700" />
                             <h2 className="text-3xl font-semibold">React</h2>
                         </div>
-                        <p className="text-justify"><b>MongoDB</b> is a NoSQL database that stores data in flexible, JSON-like documents, allowing for dynamic schemas and scalable storage. It's used for its high performance, scalability, and ease of use in handling large volumes of unstructured data, making it ideal for modern web applications.</p>
+                        <p className="text-justify"><b>MongoDB</b> is a NoSQL database that stores data in flexible, JSON-like documents, allowing for dynamic schemas and scalable storage. It is used for its high performance, scalability, and ease of use in handling large volumes of unstructured data, making it ideal for modern web applications.</p>
                     </div>
                     <div className="timeline-middle hidden md:block">
                         <svg
