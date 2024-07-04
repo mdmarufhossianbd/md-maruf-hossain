@@ -1,8 +1,7 @@
 import Link from "next/link";
-import { FaKeyboard, FaUser } from "react-icons/fa";
-import { MdEmail, MdMarkEmailRead } from "react-icons/md";
+import { MdMarkEmailRead } from "react-icons/md";
 import { PiPhoneCallFill } from "react-icons/pi";
-import { RiLoginBoxFill } from "react-icons/ri";
+import ContactForm from "./ContactForm";
 
 
 const Contact = () => {
@@ -27,7 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="lg:w-1/2 w-full">
                     <h2 className="text-2xl font-semibold">Sent me a message</h2>
-                    <form className="py-4">
+                    {/* <form className="py-4">
                         <div className="relative mb-4">
                             <FaUser className="absolute top-1/2 left-3 transform -translate-y-1/2 text-[#2f2f57]" />
                             <input className="rounded-lg pl-10 py-2 w-full text-[#2f2f57] placeholder:text-[#2f2f57] placeholder:font-medium" type="text" name="name" placeholder="Enter your name" required />
@@ -45,7 +44,8 @@ const Contact = () => {
                             <textarea className="w-full rounded-lg pl-10 pt-5 placeholder:text-[#2f2f57] text-[#2f2f57]" placeholder="Enter your message" name="message" rows={10} required></textarea>
                         </div>
                         <input className="bg-gradient-to-r from-[#C961DE] to-[#2954A3] md:px-5 px-3 py-2 rounded-full transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:from-[#2954A3] hover:to-[#C961DE] duration-300 hover:cursor-pointer" type="submit" value="Sent Message" />
-                    </form>
+                    </form> */}
+                    <ContactForm></ContactForm>
                 </div>
             </div>
         </div>
