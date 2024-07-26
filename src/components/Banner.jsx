@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div className="lg:flex items-center justify-between max-w-7xl mx-auto my-20 px-10">
             <div className="flex flex-col justify-center lg:w-1/2 w-full">
-                <p className="text-3xl md:text-5xl mb-2">Hi, I am Md Maruf Hossain, <span className="font-semibold text-gradient-to-r from-green-400 to-blue-500 text-[#C961DE]">Professional Frontend Developer</span>.</p>
+                <p className="text-3xl md:text-5xl mb-2">Hi, I am Md Maruf Hossain, <span className="font-semibold bg-clip-text text-transparent bg-gradient-to-r from-[#C961DE] via-[#3455a7] to-[#C961DE]">Professional Frontend Developer</span>.</p>
                 <TypewriterForBanner />
                 <div className="w-full flex justify-center lg:justify-normal">
                     <Link className="bg-[#FFFFFF4D] md:px-5 px-3 py-2 rounded-full mr-5" href={'#contact'} >Hire Me</Link>

@@ -52,7 +52,7 @@ const Navber = () => {
                             }
                         </div>
                     </div>
-                    <Link href={'/'} className="text-3xl font-bold"><span className="text-[#C961DE]">Maruf.</span> Hossain</Link>
+                    <Link href={'/'} className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#C961DE] to-[#3455a7]">Maruf. Hossain</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <div className="menu menu-horizontal px-1 flex gap-4">

@@ -9,21 +9,21 @@ export async function POST(request) {
 
     // Create a transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
-        host: "mail.trenddinglife.com",
+        host: "mail.geniusdevsolutions.com",
         port: 587,
         secure: false,
       auth: {
-        user: 'maruf@trenddinglife.com', 
-        pass: 'BanglaDesh_321', 
-        // user: process.env.EMAIL_USER, 
-        // pass: process.env.EMAIL_PASS, 
+        user: process.env.EMAIL_USER, 
+        pass: process.env.EMAIL_PASS, 
+        
       },
+      
     });
 
     // Set up email data
     const mailOptions = {
       from: email,
-      to: 'maruf@trenddinglife.com',
+      to: process.env.EMAIL_TO,
       subject: `${subject} by ${name}`,
       text: message, // plain text body
     //   html: `<p>${message}</p>`, // html body
