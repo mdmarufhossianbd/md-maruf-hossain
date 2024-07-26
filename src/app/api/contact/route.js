@@ -16,8 +16,6 @@ export async function POST(request) {
         user: process.env.EMAIL_USER, 
         pass: process.env.EMAIL_PASS,   
       },
-      logger: true, // ডিবাগিং চালু করুন
-      debug: true   // ডিবাগিং চালু করুন
     });
 
     // Set up email data
