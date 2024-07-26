@@ -14,10 +14,10 @@ export async function POST(request) {
         secure: false,
       auth: {
         user: process.env.EMAIL_USER, 
-        pass: process.env.EMAIL_PASS, 
-        
+        pass: process.env.EMAIL_PASS,   
       },
-      
+      logger: true, // ডিবাগিং চালু করুন
+      debug: true   // ডিবাগিং চালু করুন
     });
 
     // Set up email data
@@ -25,8 +25,8 @@ export async function POST(request) {
       from: email,
       to: process.env.EMAIL_TO,
       subject: `${subject} by ${name}`,
-      text: message, // plain text body
-    //   html: `<p>${message}</p>`, // html body
+      // text: message, // plain text body
+      html: `<p>${message} </br> by ${email}</p>`, // html body
     };
 
     // Send email

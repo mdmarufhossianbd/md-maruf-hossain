@@ -17,7 +17,7 @@ const ContactForm = () => {
     const handleSentEmail = async (e) => {
         e.preventDefault();
         setLoading(true)
-        e.target.reset();
+        
         const response = await fetch('/api/contact', {
             method: 'POST',
             headers: {
@@ -26,11 +26,13 @@ const ContactForm = () => {
             body: JSON.stringify(formData),
         });
         const result = await response.json();
+        
         if (result.success) {
             setResponseMessage('Your message has been sent successfully!');
+            e.target.reset();
             setFormData({ name: '', email: '', subject: '', message: '' });
         } else {
-            setResponseMessage('Failed to send your message. Please try again.');
+            setResponseMessage('Please enter your vaild email and try again.');
         }
         setLoading(false)
     }
